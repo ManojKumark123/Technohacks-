@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="Portfolio.css">
+<style>
+    body{
+
+background-color: rgb(12, 147, 201)
+}
+
+header {
+background-color: rgba(10, 24, 24, 0.596);
+color: rgb(255, 255, 255);
+padding: 1rem;
+text-align: right;
+}
+.para1{
+font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+color: aliceblue;
+padding: 20px;
+}
+.heading{
+color: aliceblue;
+font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading2{
+color: aliceblue;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 10px;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav ul li {
+display: inline;
+margin: 0 1rem;
+}
+
+nav ul li a {
+color: rgb(180, 183, 201);
+text-decoration: none;
+font-family: Verdana Geneva, Tahoma, sans-serif;
+font-size: 20px;
+}
+
+section {
+padding: 2rem;
+}
+
+.flex-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.profile-pic {
+border-radius: 50%;
+width: 150px;
+height: 150px;
+margin-right: 2rem;
+}
+
+.project, .skill-item {
+border: 1px solid #ccc;
+border-radius: 15px;
+padding: 1rem;
+margin: 1rem;
+width: 30%;
+border-radius: 30px;
+text-align: center;
+background-color: rgba(102, 201, 201, 0.247);
+
+}
+.project, .skill-item1 {
+border: 1px solid #ccc;
+padding: 1rem;
+margin: 1rem;
+height: 40px;
+width: 200px;
+border-radius: 30px;
+text-align: center;
+background-color: rgba(240, 255, 255, 0.247);
+}
+.project, .skill-item2 {
+border: 1px solid #ccc;
+padding: 1rem;
+margin: 1rem;
+height: 40px;
+width: 200px;
+border-radius: 30px;
+text-align: center;
+background-color: rgba(255, 124, 1, 0.541);
+}
+.project, .skill-item3 {
+border: 1px solid #ccc;
+padding: 1rem;
+margin: 1rem;
+height: 40px;
+width: 200px;
+border-radius: 30px;
+text-align: center;
+background-color: rgba(13, 185, 247, 0.377);
+}
+
+.project, .skill-item4 {
+border: 1px solid #ccc;
+padding: 1rem;
+margin: 1rem;
+height: 40px;
+width: 200px;
+border-radius: 30px;
+text-align: center;
+background-color: rgba(240, 236, 10, 0.644)
+}
+
+.project, .skill-item5 {
+border: 1px solid #ccc;
+padding: 1rem;
+margin: 1rem;
+height: 40px;
+width: 200px;
+border-radius: 30px;
+text-align: center;
+background-color: rgba(87, 35, 146, 0.452)
+}
+.project, .skill-item6 {
+border: 1px solid #ccc;
+padding: 1rem;
+margin: 1rem;
+height: 40px;
+width: 200px;
+border-radius: 30px;
+text-align: center;
+background-color: rgba(3, 43, 3, 0.514)
+}
+.project, .skill-item7 {
+border: 1px solid #ccc;
+padding: 1rem;
+margin: 1rem;
+height: 40px;
+width: 200px;
+border-radius: 30px;
+text-align: center;
+background-color: rgba(2, 44, 28, 0.664)
+}
+.project, .skill-item8 {
+border: 1px solid #ccc;
+padding: 1rem;
+margin: 1rem;
+height: 40px;
+width: 200px;
+border-radius: 20px;
+text-align: center;
+background-color: rgb(4, 46, 70)
+}
+.project, .skill-item9 {
+border: 1px solid #ccc;
+padding: 1rem;
+margin: 1rem;
+height: 40px;
+width: 200px;
+border-radius: 20px;
+text-align: center;
+background-color: rgba(190, 13, 66, 0.774)
+}
+.project, .skill-item10 {
+border: 1px solid #ccc;
+padding: 1rem;
+margin: 1rem;
+height: 40px;
+width: 200px;
+border-radius: 20px;
+text-align: center;
+background-color: rgba(36, 45, 46, 0.596)
+}
+
+.project, .skill-item11 {
+border: 1px solid #111eda;
+padding: 1rem;
+margin: 1rem;
+height: 40px;
+width: 200px;
+border-radius: 30px;
+text-align: center;
+background-color: rgba(13, 6, 22, 0.712)
+}
+
+footer {
+background-color: #241b1ba9;
+color: white;
+text-align: center;
+padding: 1rem;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
+
+
+
+
+</style>
+</head>
+<body >
+    <div>
+    <header>
+         <h4 style="text-align: left; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;">My Portfolio Resume Page</h4>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="flex-container">
+                  
+                  <p class="para1">Hii I am a ManojKumar, a web developer with experience in creating dynamic and responsive websites.I have a strong background in web development, having worked as both a front-end and back-end developer for several years. My skills include HTML, CSS, JavaScript, ReactJS, NodeJS, PHP, and MySQL. I am also familiar with popular frameworks such as Bootstrap.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1 class="heading" style="text-align: center;">Projects</h1>
+        <div class="flex-container">
+            <div class="skill-item">
+                <h2 class="heading">Calculator</h2>
+                <p class="heading2">Creating a calculator using HTML, CSS, and JavaScript is a great project for honing web development skills.This project involves building a simple, yet functional, web-based calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.</p>
+            </div>
+            <div class="skill-item">
+                <h2 class="heading">Login page</h2>
+                <p class="heading2">Responsive Design: Ensures a seamless user experience on any device.
+                <p class="heading2">Input Validation: Enhances security by validating username and password inputs.</p>
+                <p class="heading2"> Hashing: Demonstrates client-side hashing.</p>
+                   
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1 class="heading" style="text-align: center;">Skills</h1>
+        <div class="flex-container">
+            <div class="skill-item2">
+                <h4 class="heading2">HTML</h4>
+            </div>
+            <div class="skill-item3">
+                <h4 class="heading2">CSS</h4>
+            </div>
+            <div class="skill-item4">
+                <h4 class="heading2">JavaScript</h4>
+            </div>
+            <div class="skill-item5">
+                <h4 class="heading2">Bootstrap</h4>
+            </div>
+            <div class="skill-item6">
+                <h4 class="heading2">MS-Excel</h4>
+            </div>
+            <div class="skill-item7">
+                <h4 class="heading2">DBMS(MongoDB)</h4>
+            </div>
+            <div class="skill-item11">
+                <h4 class="heading2">Python</h4>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <section id="contact">
+        <h1 class="heading" style="text-align: center;">Contact</h1>
+        <div class="flex-container">
+        <div class="skill-item8">
+        <h4 class="heading2">LinkedIn:<a href="https://www.linkedin.com/in/manoj-kumar-259127256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">click</a></h4>
+        </div>
+        <div class="skill-item9">
+        <h4 class="heading2">Instagram:<a href="https://www.instagram.com/" target="_blank">click</a></h4>
+        </div>
+        <div class="skill-item10">
+            <h4 class="heading2">Github:<a href="https://github.com/ManojKumark123" target="_blank">click</a></h4>
+        </div>
+    </div>
+    </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <footer>
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">&copy; 2024 ManojKumar. All rights reserved.</p>
+    </footer>
+    </body>
+</body>
+</html>
